@@ -1,15 +1,13 @@
 #! /usr/bin/python
 '''
-NOTE: As of 10/12/2015, I could not get spatialite_tool to build. The Spatialite
-Users Forum says that support for this package has been dropped. Will need to
-determine alternative ways to accomplish what we need.
-
 This program is used to load all of the shapefiles in
 a given directory into a spatialite database. The 
 .shp, .shx and .dbf files must all be present for each 
 shapefile. It uses the spatialite_tool, which can be downloaded and
 built from:
 https://www.gaia-gis.it/fossil/spatialite-tools/home
+Be sure to build and install the version that matches your installed
+version of spatialite, found in /usr/include/spatialite.h
 
 The path to the spatialite tool is specified on the command line.
 
