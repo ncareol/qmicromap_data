@@ -1,5 +1,9 @@
 #! /usr/bin/python
 '''
+NOTE: As of 10/12/2015, I could not get spatialite_tool to build. The Spatialite
+Users Forum says that support for this package has been dropped. Will need to
+determine alternative ways to accomplish what we need.
+
 This program is used to load all of the shapefiles in
 a given directory into a spatialite database. The 
 .shp, .shx and .dbf files must all be present for each 
