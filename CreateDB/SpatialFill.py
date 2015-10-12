@@ -3,7 +3,9 @@
 This program is used to load all of the shapefiles in
 a given directory into a spatialite database. The 
 .shp, .shx and .dbf files must all be present for each 
-shapefile.
+shapefile. It uses the spatialite_tool, which can be downloaded and
+built from:
+https://www.gaia-gis.it/fossil/spatialite-tools/home
 
 The path to the spatialite tool is specified on the command line.
 
